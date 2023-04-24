@@ -35,9 +35,45 @@
   top: 200px;
 }
 
+/*.pin:hover {
+  width: 40px;
+  position: absolute;
+  transition: 3s
+  right: 580px;
+  top: 200px;
+} */
+
 .pin2 {
   width: 70px;
   position: absolute;
   left: 680px;
   top: 170px;
+}
+
+.row {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.textcontainer {
+  /*border: 1px solid black;*/
+  width: 400px;
+  height: 500px;
+}
+
+.header {
+  text-align: Center;
+  color: rgb(245, 92, 31);
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  line-height: 0.1em;
+}
+
+.intro {
+  padding: 0 20px;
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.5em;
 }
