@@ -5,4 +5,19 @@
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+}
+/*Zoe*/
+.pin {
+  width: 30px;
+  position: absolute;
+  right: 580px;
+  top: 200px;
+}
+
+.pin2 {
+  width: 70px;
+  position: absolute;
+  left: 680px;
+  top: 170px;
 }
