@@ -1,5 +1,6 @@
 #bg {
-  background-image: url("../0424 position ex1/img/bg.jpg");
+
+  background: url("../0424 position ex1/img/bg.jpg");
   background-size: contain;
   height: 100vh;
   width: 100vw;
@@ -7,6 +8,26 @@
   background-position: center;
   position: relative;
 }
+
+.calvin {
+  display: flex;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  bottom: 200px;
+  right: 490px;
+}
+
+.calvin img {
+  height: 100%;
+  width: 100%;
+}
+
+.calvin p {
+  font-weight: 600;
+  font-size: 18px;
+}
+  
 /*Zoe*/
 .pin {
   width: 30px;
