@@ -24,21 +24,23 @@
 } */
 
 .pin2 {
-  width: 70px;
+  width: 60px;
   position: absolute;
-  left: 680px;
-  top: 170px;
+  right: 500px;
+  top: 180px;
+}
+
+.pin3 {
+  width: 70px;
 }
 
 .row {
-  margin-top: 100px;
   display: flex;
   justify-content: space-around;
 }
 
 .textcontainer {
-  /*border: 1px solid black;*/
-  width: 400px;
+  width: 100%;
   height: 500px;
 }
 
@@ -56,4 +58,10 @@
   color: grey;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 1.5em;
+}
+
+.img {
+  background-image: url("../0424 position ex1/img/RM.png");
+  background-size: cover;
+  background-position: right;
 }
