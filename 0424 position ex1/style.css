@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #bg {
   background-image: url("../0424 position ex1/img/bg.jpg");
   background-size: contain;
