@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  border: 1px red solid;
+}
+
+.left,
+.right {
+  flex: 0 0 45%;
+  border: 1px black solid;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+}
+
+.left {
+  background-color: lightgray;
+}
